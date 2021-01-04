@@ -17,5 +17,35 @@
 {{View::make('header')}}
 @yield('content')
 {{View::make('footer')}}
+<style>
+img.slider-img{
+height:300px;
+}
+.slider-text{
+  background-color: #dcdede99;
+}
+.tranding-img{
+  height:100px;
+  border: 2px solid #ccc;
+}
+.tranding-item{
+
+  float:left;
+  width:20%;
+  
+}
+.tranding-wrapper{
+  margin:20px;
+}
+.search-box{
+  width:400px !important;
+}
+.card-list-divider{
+
+border-bottom:1px  solid #ccc;
+margin-bottom:20px;
+padding-bottom:20px;
+}
+</style>
 </body>
 </html>
